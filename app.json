@@ -1,0 +1,35 @@
+{
+	"expo": {
+		"name": "Together",
+		"slug": "Together",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/images/icon.png",
+		"splash": {
+			"image": "./app/assets/images/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.buildforgood.together",
+			"buildNumber": "1.0.0"
+		},
+		"android": {
+			"package": "com.buildforgood.together",
+			"versionCode": 1,
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyAyI5sS5ffOPPwpGNeb5hv9_8v-CsDTBJ0"
+				}
+			}
+		},
+		"web": {
+			"favicon": "./app/assets/images/favicon.png"
+		}
+	}
+}
